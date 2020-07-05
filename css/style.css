@@ -23,9 +23,38 @@ body {
 	font-size: 16px;
 	color: #000;
 }
+h1 {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 37px;
+	color: #000;
+	color: #22AFFF;
+
+}
 a {
 	color: #22AFFF;
 	text-decoration: none;
+}
+input, textarea {
+	font-family: inherit;
+	font-size: 20px;
+	padding: 8px;
+	border: 2px solid #E3E3E3;
+	resize: none;
+}
+label {
+	font-size: 18px;
+	line-height: 18px;
+	color: #22AFFF;
+}
+
+input.submit {
+	font-size: 18px;
+	color: #22AFFF;
+	background: #FBFBFB;
+	width: 90px;
+	height: 45px;
+	border: 2px solid #E3E3E3;
 }
 
 /* Header start */
@@ -132,6 +161,68 @@ a.title:hover, a.title:focus, a.title:active {
 }
 
 /* Footer end */
+
+
+/* Add Article start */
+
+.add-article {
+	padding-top: 130px;
+	padding-bottom: 70px;
+	height: 100vh;
+}
+.add-article__box {
+	border-top: 1px solid #22AFFF;
+	border-bottom: 1px solid #22AFFF;
+}
+.add-article__title {
+	margin-top: 40px;
+	font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.add-article__input-name {
+	margin-top: 42px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.add-article__input-text {
+	margin-top: 21px;
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.add-article__input-name__label {
+	width: 1040px;
+	margin-left: 321px;
+}
+.add-article__input-text__label {
+	width: 1040px;
+	margin-left: 200px;
+}
+.input__article-name {
+	width: 400px;
+	height: 40px;
+}
+.input__article-text {
+	width: 640px;
+	height: 300px;
+}
+.add-article__button-create {
+	margin-top: 60px;
+	margin-bottom: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Add Article end */
 
 
 
